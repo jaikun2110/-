@@ -27,4 +27,13 @@ git push pull main #깃허브에서 정보 받기
 
 git remote add origin 주소 #깃허브에 연결
 
-git clone 주소 #깃허브에서 정보 복사해옴
+
+1. cd \폴더명 #폴더명 으로 이동
+
+2. git clone 주소 #깃허브에서 정보 복사해옴(1회만 하면 되는 작업)
+
+3. notepad 로 read me 수정
+
+4. 커밋하기
+
+5. git push origin main 으로 깃허브에 저장
