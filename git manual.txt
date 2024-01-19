@@ -1,6 +1,6 @@
 git init #최초 저장소 생성(respositery), 최초 1회만 실행
 
-git status#저장소 상태 확인
+git status #저장소 상태 확인
 
 git config --global core.quotepath false #git 한글 인식
 
@@ -23,7 +23,7 @@ git merge 브랜치 이름 #현재 브랜치를'브랜치 이름'과 병합 (로
 git branch -d #브랜치 삭제 (d를 대문자로 이용시 강제삭제)
 
 git push origin main #깃허브에 정보 보내기
-git push pull main #깃허브에서 정보 받기
+git pull origin main #깃허브에서 정보 받기
 
 git remote add origin 주소 #깃허브에 연결
 
@@ -34,6 +34,14 @@ git remote add origin 주소 #깃허브에 연결
 
 3. notepad 로 read me 수정
 
-4. 커밋하기
+4. git commit -m "텍스트"# 커밋하기
 
-5. git push origin main 으로 깃허브에 저장
+5. git push origin main #깃허브에 저장
+
+6. git pull origin main # 리젝트 오류 발생시 정보 가져오기
+
+7. 깃허브 정보가져올때 오류발생시 
+	1.git pull origin main #정보 가져오기
+	2.git add #변경내용 추가
+	3.git commit -m "텍스트" # 커밋
+	4.git push origin main #정보 보내기
