@@ -1,0 +1,23 @@
+git init #최초 저장소 생성(respositery), 최초 1회만 실행
+
+git status#저장소 상태 확인
+
+git config --global core.quotepath false #git 한글 인식
+
+git config --unset --global user.email.com #정보삭제
+
+git config --global user.name ""
+git config --global user.email.com "" #정보설정
+
+git checkout filename #"filename" 를 다시꺼냄
+
+git log #작업 히스토리 관리
+git log --one line #작업 히스토리 관리(간략하게)
+
+git commit -m "텍스트" #텍스트 저장
+
+
+git branch 브랜치 이름 #'브랜치 이름'를 생성
+git check 브랜치 이름 #'브랜치 이름'으로 이동
+git merge 브랜치 이름 #현재 브랜치를'브랜치 이름'과 병합 (로그 등등이 병합됨)
+git branch -d #브랜치 삭제 (d를 대문자로 이용시 강제삭제)
