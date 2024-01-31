@@ -25,6 +25,7 @@ total = 0
 count = 0
 
 def comp(a, op, b):
+    c = 0
     if op == '+':
         c = plus(a, b)
     elif op == '-':

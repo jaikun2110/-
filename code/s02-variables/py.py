@@ -180,6 +180,7 @@ def add2(a,b):
     
     return a+b
 def minus2(a,b):
+    total2.append(total2[-1] + (a-b))
     historyList.append([a,"-",b, a-b ])
     return a-b
 def multiple2(a,b):
